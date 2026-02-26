@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Honk:MORF@15&display=swap" rel="stylesheet">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="body">
+    <div id="scoreboard" class="scoreboard">
+        <h2 class="honk-font">Scoreboard</h2>
+        <p>Player X Wins: <span id="score-x">0</span></p>
+        <p>Player O Wins: <span id="score-o">0</span></p>
+        <p>Draws: <span id="score-draw">0</span></p>
+    </div>
+    
+    <div class="top-buttons">
+        <button id="pvp-btn" class="buttonMode1">PvP mode</button>
+        <button id="easy-btn" class="buttonMode2">Easy AI</button>
+        <button id="medium-btn" class="buttonMode3">Medium AI</button>
+        <button id="hard-btn" class="buttonMode4">Hard AI</button>
+    </div>
+    
+    <h1 id="mode-indicator" class="honk-font">PvP Mode</h1>
+    <div id="game-board">
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+    </div>
+    <h2 id="turn-indicator" class="honk-font">Turn: X </h2>
+    <h1 id="winner-indicator" class="honk-font">Winner</h1>
+
+	<button id="reset-btn" class="button-reset">Reset Game</button>
+    <script src="script.js"></script>
+</body>
+</html>
